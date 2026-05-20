@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itahari Model School</title>
+    <!-- Tailwind CSS for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Header / Navigation -->
+    <header class="bg-blue-900 text-white sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <!-- Temporary placeholder logo -->
+                <div class="w-10 h-10 bg-white text-blue-900 rounded-full flex items-center justify-center font-bold text-xl shadow">
+                    IMS
+                </div>
+                <div>
+                    <h1 class="font-bold text-xl tracking-wide">Itahari Model School</h1>
+                    <p class="text-xs text-blue-200">Itahari, Koshi Province</p>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-6 font-medium">
+                <a href="#home" class="hover:text-amber-400 transition">Home</a>
+                <a href="#about" class="hover:text-amber-400 transition">About</a>
+                <a href="#academics" class="hover:text-amber-400 transition">Academics</a>
+                <a href="#contact" class="hover:text-amber-400 transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-blue-800 text-white py-24 px-6 text-center">
+        <!-- You can replace this placeholder image background later -->
+        <div class="absolute inset-0 bg-cover bg-center opacity-20" style="background-image: url('https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80');"></div>
+        <div class="relative container mx-auto max-w-3xl">
+            <span class="bg-amber-500 text-blue-900 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">Welcome to IMS</span>
+            <h2 class="text-4xl md:text-5xl font-extrabold my-6 leading-tight">Shaping Minds, Building Futures</h2>
+            <p class="text-lg md:text-xl text-blue-100 mb-8">Providing quality education and fostering excellence in the heart of Itahari.</p>
+            <a href="#contact" class="bg-amber-500 hover:bg-amber-400 text-blue-950 font-bold px-8 py-3 rounded-lg shadow-lg transition transform hover:-translate-y-0.5 inline-block">Enroll Now</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-6 container mx-auto max-w-5xl">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h3 class="text-3xl font-bold text-blue-900 mb-4">About Our School</h3>
+                <p class="text-gray-600 leading-relaxed mb-4">
+                    Itahari Model School is dedicated to academic excellence, personal growth, and social responsibility. We provide a supportive and challenging environment that encourages students to explore their potential and become lifelong learners.
+                </p>
+                <p class="text-gray-600 leading-relaxed">
+                    With modern facilities, experienced educators, and a well-rounded curriculum, we prepare our students to meet the challenges of tomorrow.
+                </p>
+            </div>
+            <!-- Image Placeholder -->
+            <div class="bg-gray-200 h-64 rounded-xl flex items-center justify-center border-2 border-dashed border-gray-300 relative overflow-hidden group shadow-inner">
+                <span class="text-gray-400 font-medium group-hover:text-gray-500 transition">School Image Placeholder</span>
+                <!-- Replace 'src' when you have your image uploaded to GitHub -->
+                <!-- <img src="your-about-image.jpg" class="absolute inset-0 w-full h-full object-cover"> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Academics / Features -->
+    <section id="academics" class="bg-gray-100 py-16 px-6">
+        <div class="container mx-auto max-w-5xl text-center">
+            <h3 class="text-3xl font-bold text-blue-900 mb-12">Our Academic Pillars</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-900 rounded-lg flex items-center justify-center font-bold text-xl mx-auto mb-4">📚</div>
+                    <h4 class="font-bold text-lg mb-2">Quality Curriculum</h4>
+                    <p class="text-gray-600 text-sm">A comprehensive, modern curriculum designed to stimulate critical thinking and creativity.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-900 rounded-lg flex items-center justify-center font-bold text-xl mx-auto mb-4">🔬</div>
+                    <h4 class="font-bold text-lg mb-2">Modern Labs</h4>
+                    <p class="text-gray-600 text-sm">Well-equipped science and computer laboratories to provide hands-on practical learning experiences.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-900 rounded-lg flex items-center justify-center font-bold text-xl mx-auto mb-4">🏆</div>
+                    <h4 class="font-bold text-lg mb-2">Extracurriculars</h4>
+                    <p class="text-gray-600 text-sm">From sports to arts, we foster talent outside the classroom to build well-rounded personalities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Location -->
+    <section id="contact" class="py-16 px-6 container mx-auto max-w-4xl">
+        <h3 class="text-3xl font-bold text-blue-900 text-center mb-12">Get In Touch</h3>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                <h4 class="font-bold text-lg mb-4 text-blue-800">Contact Information</h4>
+                <div class="space-y-4 text-sm text-gray-600">
+                    <p class="flex items-center"><span class="mr-3 text-lg">📍</span> Itahari, Koshi Province, Nepal</p>
+                    <p class="flex items-center"><span class="mr-3 text-lg">📞</span> +977-XX-XXXXXX</p>
+                    <p class="flex items-center"><span class="mr-3 text-lg">✉️</span> info@itaharimodelschool.edu.np</p>
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                <h4 class="font-bold text-lg mb-4 text-blue-800">Quick Inquiry</h4>
+                <form class="space-y-3" onsubmit="event.preventDefault(); alert('Message sent successfully! (This is a demo)');">
+                    <input type="text" placeholder="Your Name" required class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm">
+                    <input type="email" placeholder="Your Email" required class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm">
+                    <textarea placeholder="Your Message" rows="3" required class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"></textarea>
+                    <button type="submit" class="w-full bg-blue-900 hover:bg-blue-800 text-white font-medium py-2 rounded text-sm transition">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-950 text-gray-400 py-8 text-center text-sm border-t border-blue-900">
+        <p>&copy; 2026 Itahari Model School. All rights reserved.</p>
+        <p class="text-xs text-gray-500 mt-2">Designed for GitHub Pages</p>
+    </footer>
+
+</body>
+</html>
